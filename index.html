@@ -1,0 +1,93 @@
+<body>
+
+
+    <h1>This is a beautifull title</h1>
+
+    <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h2>nostrud exercitation ullamco laboris nisi ut aliquip</h2>
+
+    <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+    <h2>Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h2>
+
+    <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+
+
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 50em;
+        margin: auto;
+        background-color: rgb(40, 40, 56);
+        color: whitesmoke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    }
+
+    h1,
+    h2 {
+        --stop-1: 20%;
+        --stop-2: 50%;
+        --stop-3: 100%;
+        padding: 0.5em;
+        padding-right: 10%;
+        transform: skew(0deg, -5deg);
+        transition: all 0.2s ease-in-out;
+        margin-block: 1em;
+        background: linear-gradient(to left,
+                #fb8144 0%,
+                #fb8144 var(--stop-1),
+                #7fe04b var(--stop-1),
+                #7fe04b var(--stop-2),
+                #4242ed var(--stop-2),
+                #4242ed var(--stop-3));
+        background-position: 100%;
+        background-size: 10%;
+        background-repeat: no-repeat;
+    }
+
+    h1:hover,
+    h2:hover {
+        background-size: 100%;
+
+        text-shadow: 0px 0px 2px rgb(28, 30, 39),
+            0.01em 0.01em 0px rgb(28, 30, 39),
+            0.02em 0.02em 0px rgb(28, 30, 39),
+            0.03em 0.03em 0px rgb(28, 30, 39),
+            0.04em 0.04em 0px rgb(28, 30, 39),
+            0.05em 0.05em 0px rgb(28, 30, 39),
+            0.06em 0.06em 0px rgb(28, 30, 39),
+            0.07em 0.07em 0px rgb(28, 30, 39),
+            0.08em 0.08em 0px rgb(28, 30, 39),
+            0.09em 0.09em 0px rgb(28, 30, 39);
+
+    }
+
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+</style>
